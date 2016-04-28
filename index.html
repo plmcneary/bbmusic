@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <div class="splash-image">
-      <div class="scroll-bottom">
+    <section id="splash">
+      <div class="scroll-down">
         <img class="arrow down-arrow" src="assets/down_arrow.svg">
       </div>
-    </div>
-    <div class="happenings-wrapper">
+    </section>
+    <section id="happenings">
       <h1 class="happenings-header">Happenings</h1>
       <ul class="schedule">
         <li class="show">
@@ -23,18 +23,23 @@
           <div class="tickets">Tickets</div>
         </tr>
       </ul>
-    </div>
-    <div class="media-wrapper"></div>
-    <div class="merch-wrapper">
+    </section>
+    <section id="media">
+      <div class="player"></div>
+      <div class="gallery"></div>
+    </section>
+    <section id="merch">
       <a class="merch-link" href="https://barrettbrooks.bandcamp.com/releases">Merch</a>
-    </div>
+    </section>
     <footer>
-      <div class="scroll-top">
-        <img class="arrow top-arrow" src="assets/up_arrow.svg">
+      <div class="scroll-up">
+        <img class="arrow up-arrow" src="assets/up_arrow.svg">
       </div>
       <div class="footer-wrapper">
         <p class="copyright">Copyright 2016 Barrett Brooks</p>
       <div>
     </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/animations.js"></script>
   </body>
 </html>
