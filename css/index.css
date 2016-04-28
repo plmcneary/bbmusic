@@ -1,0 +1,133 @@
+body {
+  background-color: #FFFFFF;
+  z-index: -1;
+  font-family: Helvetica;
+}
+
+
+
+/*General*/
+
+.arrow {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/*Splash*/
+
+.splash-image {
+  background-image: url("../assets/temporary_splash.jpg");
+  height: 100vh;
+  width: 100%;
+}
+
+.scroll-bottom {
+  width: 60px;
+  height: 60px;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 0px;
+}
+
+.down-arrow {
+  padding: 7px 12px;
+  width: 60px;
+}
+
+/*Happenings*/
+
+.happenings-wrapper {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 600px;
+  position: relative;
+}
+
+.happenings-header {
+  padding: 40px;
+}
+
+.schedule {
+  margin: auto;
+  width: 80%;
+}
+
+.date {
+  font-weight: bold;
+  width: 20%
+}
+
+.day {
+  font-weight: bold;
+  width: 10%
+}
+
+.venue {
+  width: 35%;
+}
+
+.city {
+  width: 35%;
+}
+
+/*Media*/
+
+.media-wrapper {
+  background-color: #FFFFFF;
+  height: 600px;
+  position: relative;
+}
+
+/*Merch*/
+
+.merch-wrapper {
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  height: 600px;
+  position: relative;
+}
+
+.merch-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*Footer*/
+
+footer {
+  position: relative;
+}
+
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+  display: block;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  top: -25px;
+}
+
+.top-arrow {
+  padding: 7px 12px;
+  width: 50px;
+}
+
+.footer-wrapper {
+  text-align: center;
+  background-color: #FFFFFF;
+  height: 260px;
+}
+
+.copyright {
+  padding: 100px;
+}
